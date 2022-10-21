@@ -1,0 +1,140 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  color: black;
+  margin: 0 auto;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(93, 90, 90);
+}
+a:hover {
+  color: rgb(38, 81, 223);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+}
+.aside {
+  width: 350px;
+  height: 100%;
+  background-color: #333333;
+}
+.header {
+  display: flex;
+  height: 270px;
+  width: 1130px;
+  margin-left: 30px;
+  margin-top: 30px;
+  border: 15px solid white;
+  background-color: #9bc8c8;
+}
+img {
+  display: block;
+  width: auto;
+  height: auto;
+}
+.image {
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.header__name {
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 32px;
+  justify-content: center;
+  margin-left: 110px;
+}
+.list {
+  display: block;
+}
+.header__list {
+  list-style-type: none;
+  color: rgb(93, 90, 90);
+  margin-left: 130px;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.header__item {
+  margin-bottom: 10px;
+}
+.main {
+  margin-top: 320px;
+  align-items: center;
+}
+.description {
+  margin-left: 40px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  background-color: #9bc8c8;
+  width: 220px;
+  text-align: center;
+}
+.text {
+  color: rgb(42, 41, 41);
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 55px;
+  margin-bottom: 30px;
+  line-height: 1.7;
+  margin-right: 70px;
+}
+.ds-list {
+  color: rgb(42, 41, 41);
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 35px;
+  line-height: 1.7;
+}
+.skils {
+  color: #9bc8c8;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.skils-list {
+  list-style-type: circle;
+  color: rgb(203, 202, 202);
+  margin-left: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+}
+.skils-item {
+  margin-bottom: 5px;
+}
+.png {
+  display: block;
+  width: 20px;
+  height: 20px;
+  fill: rgb(93, 90, 90);
+  margin-left: -40px;
+  padding: 0;
+  margin-bottom: 0;
+}
+.stopka {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(151, 146, 146);
+  margin-left: 40px;
+}
